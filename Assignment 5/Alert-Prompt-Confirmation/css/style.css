@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background: black;
+    color: pink;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+div{
+    display: flex;
+    gap: 3rem;
+    
+}
+
+
+#confirm{
+    background-color: blueviolet;
+    width: 150px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 50vh;
+    left: 10%;
+    padding: 20px;
+    font-weight: 800;
+}
+
+#alert{
+    background-color: rgb(21, 49, 33);
+    width: 150px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 50vh;
+    left: 10%;
+    padding: 20px;
+    font-weight: 800;
+}
+
+#prompt{
+    background-color: rgb(173, 99, 39);
+    width: 200px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 50vh;
+    left: 10%;
+    padding: 20px;
+    font-weight: 800;
+}
+
+#confirm:hover{
+    background-color: greenyellow;
+    border: 2px solid white;
+}
+
+#prompt:hover{
+    background-color: greenyellow;
+    border: 2px solid white;
+}
+
+#alert:hover{
+    background-color: greenyellow;
+    border: 2px solid white;
+}
+
+
+
